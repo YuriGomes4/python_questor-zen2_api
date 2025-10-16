@@ -72,7 +72,7 @@ Resposta JSON: {response.json()}""")
 
             response_json = response.json()
 
-            if 'access_token' in response_json:
+            if 'access_token' in response_json['dados']:
                 self.access_token = response_json['access_token']
                 return self.access_token
             else:
