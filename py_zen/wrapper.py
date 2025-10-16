@@ -72,9 +72,8 @@ Resposta JSON: {response.json()}""")
 
             response_json = response.json()
 
-            if 'access_token' in response_json['dados']:
-                self.access_token = response_json['access_token']
-                return self.access_token
+            if 'accessToken' in response_json['dados']:
+                return response_json
             else:
                 if self.print_error:
                     print(f"Erro ao obter o token de acesso: {response_json}")
