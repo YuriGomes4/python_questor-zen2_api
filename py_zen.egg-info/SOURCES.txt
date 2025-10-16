@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+py_zen/__init__.py
+py_zen/wrapper.py
+py_zen.egg-info/PKG-INFO
+py_zen.egg-info/SOURCES.txt
+py_zen.egg-info/dependency_links.txt
+py_zen.egg-info/requires.txt
+py_zen.egg-info/top_level.txt
